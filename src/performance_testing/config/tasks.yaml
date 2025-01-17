@@ -1,0 +1,6 @@
+performance_test_engineer_task:
+  description: >
+    Do send {no_of_requests} of {method} requests in parallel to {url} by using tool
+  expected_output: >
+    Print whether HTTP status code of each request
+  agent: performance_test_engineer
