@@ -16,9 +16,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        "no_of_requests": 30,
-        "url": "http://localhost:3000/posts.json",
-        "method": "POST"
+        "task_description": "Please do send 5 GET requests to an API endpoint http://localhost:3000/posts.json"
     }
     PerformanceTesting().crew().kickoff(inputs=inputs)
 
